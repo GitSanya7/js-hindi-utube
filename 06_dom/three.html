@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elemnt creation</title>
+</head>
+<body style="background-color:#212121; color: white;">
+    <script>
+    const div=document.createElement('div')
+    console.log(div);
+    div.id="head";
+    div.classname="elements";
+    div.style.backgroundColor="yellow"
+    div.style.color="red"
+    div.title=("title","generated title")
+    //div.innerText="chaipaani"
+    const addtext=document.createTextNode("chaii")
+    div.appendChild(addtext)
+
+    document.body.appendChild(div)
+    
+</script>
+</body>
+</html>
