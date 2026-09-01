@@ -28,7 +28,8 @@ buttons.forEach(function (button) {
     if (e.target.id === 'yellow') {
       body.style.backgroundColor = e.target.id;
     }
-  });```
+  });
+  ```
 
 #project solution
 
@@ -52,4 +53,5 @@ form.addEventListener('submit', function (e) {
 
     results.innerHTML = `<span>${BMI}</span>`;
   }
-});```
+});
+```
