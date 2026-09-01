@@ -30,6 +30,7 @@ buttons.forEach(function (button) {
     }
   });```
 
+#project solution
 
 ## SOL2
 ```javascript
