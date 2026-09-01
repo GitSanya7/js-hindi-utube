@@ -31,7 +31,7 @@ buttons.forEach(function (button) {
   });
   ```
 
-#project solution
+# project solution
 
 ## SOL2
 ```javascript
